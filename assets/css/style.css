@@ -1,0 +1,71 @@
+
+/**Reset**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**Variáveis**/
+:root{
+    --color-nao-metais: #4603b1;
+    --color-gases-nobres: #277da1;
+    --color-metais-alcalinos: #E20808;
+    --color-metais-alcalinos-terrosos: #F94141;
+    --color-semimetais: #43aa8b;
+    --color-halogenios: #87b465;
+    --color-outros-metais: #4d908e;
+    --color-metais-transicao: #2a796c;
+    --color-lantanideos: #277da1;
+    --color-actinidios: #79456c;
+    --color-text: #fff;
+}
+.elemento{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    color: var(--color-text)
+}
+.naoMetais{
+    background-color: var(--color-nao-metais);
+}
+.gasesNobres{
+    background-color: var(--color-gases-nobres);
+}
+.metaisAlcalinos{
+    background-color: var(--color-metais-alcalinos);
+}
+.metaisAlcalinosTerrosos{
+    background-color: var(--color-metais-alcalinos-terrosos);
+}
+.semiMetais{
+    background-color: var(--color-semimetais);
+}
+.haloGenios{
+    background-color: var(--color-halogenios);
+}
+.outrosMetais{
+    background-color: var(--color-outros-metais);
+}
+.metaisTransicao{
+    background-color: var(--color-metais-transicao);
+}
+.metaisLantanideos{
+    background-color: var(--color-lantanideos);
+}
+.actinideos{
+    background-color: var(--color-actinidios);
+}
+.estilo{
+    border-radius: 10px;
+    padding: 5px;
+}
+.right{
+    text-align: right;
+}
+/*desktop*/
+@media screen and (min-whidth: 600px ){
+    .linha01{
+        display: flex;
+        justify-content: space-between;
+    }
+}
